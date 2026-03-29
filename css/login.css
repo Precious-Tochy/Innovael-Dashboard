@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-image: url(/image/Gleaming\ Urban\ Tower.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.log h1{
+    font-size: 2rem;
+    margin-top: 1rem;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.log{
+    margin-left: 2rem;
+}
+.email h3{
+    color: #fff;
+    margin-top: 4rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.email input{
+    margin-top: 1rem;
+    width: 400px;
+    height: 35px;
+    font-size: 1rem;
+    padding-left: 1rem;
+    background-color:#dfe3e6;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+.password h3{
+    color: #fff;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.password input{
+     margin-top: 1rem;
+    width: 400px;
+    height: 35px;
+    font-size: 1rem;
+    padding-left: 1rem;
+    background-color: #dfe3e6;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+.switch{
+    margin-top: 1rem;
+}
+.toggle-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: Arial, sans-serif;
+  margin-top: 10px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 4px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #ff6600;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.password{
+    position: relative;
+}
+.blow span{
+    color: #fff;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.basic{
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+}
+.forgot {
+    margin-top: 1rem;
+}
+.forgot a{
+    color: #fff;
+}
+ button{
+    width: 400px;
+    height: 40px;
+    background-color: #ff6600;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}   
+button{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+button:hover{
+    color: black;
+    font-size: 1.2em;
+}
+input[type="password"]{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.line p::before{
+    content: "";
+    display: inline-block;
+    width: 9.1rem;
+    height: 1.6px;
+    background-color: #fff;
+    margin-right: 10px;
+}
+.line{
+    margin-top: 1.5rem;
+}
+.line p{
+    color: #fff;
+    font-size: 14px ;
+}
+.line p::after{
+    content: "";
+    display: inline-block;
+    width: 9.1rem;
+    height: 1.6px;
+    background-color: #fff;
+    margin-left: 10px;
+}
+.fb{
+    margin-top: 1.5rem;
+    width: 120px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5a5656;
+    border-radius: 5px;
+}
+.rem{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.fb i {
+    font-size: 1.3em;
+    color: #fff;
+}
+.sign{
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+.sign span{
+    color: #ff6600;
+}
+.sign p{
+    color: #fff;
+}
