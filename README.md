@@ -57,7 +57,7 @@ Status Toggle:
 - Dynamically changes text and color based on state
 
  📌 Future Improvements
-* Add backend integration (Laravel / Node.js)
+* Add backend integration (Laravel)
 * Dynamic data fetching (API)
 * Multi-page navigation system
 * Authentication system
@@ -66,6 +66,7 @@ Status Toggle:
 💡Note:
 
 This project is a "frontend-only dashboard" built to showcase UI development skills and interactivity using JavaScript.
+
 🔥Designed to reflect real-world admin dashboards with clean UI and smooth interactions.
 
 
