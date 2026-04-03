@@ -1,72 +1,40 @@
 🚀 Innovael Dashboard UI
 
- A frontend web application designed to simulate a real admin panel.
-It includes a sidebar navigation system, revenue visualization, booking summaries, and an interactive invoice table.
+A frontend admin dashboard that simulates a real-world management system, featuring revenue insights, booking summaries, and invoice management.
 
-Live Demo: [https://innovael-dashboard.vercel.app](https://innovael-dashboard.vercel.app)
+Live Demo: https://innovael-dashboard.vercel.app
 
-This project demonstrates strong skills in:
-- Frontend layout structuring
-- Responsive design
-- DOM manipulation with JavaScript
-- UI/UX best practices
-
-Features:
-  Dashboard Interface;
-- Clean and structured layout
-- Revenue bar chart visualization
+Key Features:
+- Clean, responsive dashboard layout
+- Revenue visualization (bar chart)
 - Booking summary section
-- Invoice management table
+- Interactive invoice table
+- Toggleable sidebar (mobile-friendly)
+- CSV export for invoice data
+- Click-to-toggle payment status (Paid / Pending)
 
- 📱 Responsive Design
-- Optimized for desktop, tablet (iPad), and mobile devices
-- Collapsible sidebar with hamburger menu
+Responsive Design:
+Optimized for desktop, tablet, and mobile with a collapsible sidebar for smaller screens.
 
-📂 Sidebar Navigation
-- Toggleable sidebar (open/close)
-- Active state for Dashboard menu
-- Mobile-friendly interaction
+Tech Stack:
+HTML5
+CSS3
+Bootstrap 5
+JavaScript (Vanilla)
+Remix Icons
 
-📥 Invoice Export
-- Download invoice data as a CSV file
-- Automatically extracts table content
+Highlights:
+Dynamic UI interactions with JavaScript
+CSV export using Blob API
+Responsive layout with modern UI/UX practices.
 
-🔄 Interactive Status System
-- Clickable status column
-- Toggle between:
-  * ✅ Paid (Green)
-  * ❌ Pending (Red)
+📌 Future Improvements:
+Backend integration (Laravel)
+API-based dynamic data
+Authentication system
+Multi-page navigation
+Dark mode
 
-🛠️ Technologies Used
-HTML5 – Structure
-CSS3 – Styling
-Bootstrap 5 – Layout & responsiveness
-JavaScript (Vanilla) – Interactivity
-Remix Icons – UI icons
+Note:
 
-⚙️ How It Works
-Sidebar Toggle:
-- Uses JavaScript to add/remove a class for mobile view
-Dashboard Activation:
-- Only the Dashboard menu item is interactive
-- Updates UI state dynamically
- CSV Download:
-- Converts table data into CSV format
-- Triggers file download using Blob API
-Status Toggle:
-- Dynamically changes text and color based on state
-
- 📌 Future Improvements
-* Add backend integration (Laravel)
-* Dynamic data fetching (API)
-* Multi-page navigation system
-* Authentication system
-* Dark mode toggle
-
-💡Note:
-
-This project is a "frontend-only dashboard" built to showcase UI development skills and interactivity using JavaScript.
-
-🔥Designed to reflect real-world admin dashboards with clean UI and smooth interactions.
-
-
+This is a frontend-only project built to showcase UI development, responsiveness, and interactivity.
