@@ -27,6 +27,7 @@ Highlights:
 Dynamic UI interactions with JavaScript,
 CSV export using Blob API and
 Responsive layout with modern UI/UX practices.
+Info: Only the Dashboard menu item is interactive.
 
 📌 Future Improvements:
 Backend integration (Laravel),
