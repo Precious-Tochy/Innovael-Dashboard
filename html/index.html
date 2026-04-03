@@ -12,24 +12,63 @@
 />
 </head>
 <body>
+  <div class="topbar">
+  <h1>Innovael</h1>
+  <div id="hamburger" class="hamburger">
+    <i class="ri-menu-line"></i>
+  </div>
+</div>
     <div class="real">
     <div class="list">
         <h1>Innovael</h1>
    <ul class="list-group list-group-flush">
-  <li class="list-group-item" id="gol"><a href=""><i class="ri-dashboard-horizontal-fill"></i>dashboard </a></li>
-  <li class="list-group-item"><a href=""><i class="ri-computer-line"></i>Web Management </a></li>
-  <li class="list-group-item"><a href=""><i class="ri-time-line"></i>Activities & <br> <span>Providers </span></a></li>
-  <li class="list-group-item"><a href=""><i class="ri-group-line"></i>End Clients </a></li>
-  <li class="list-group-item"><a href=""><i class="ri-coupon-line"></i>Bookings </a></li>
-  <li class="list-group-item"><a href=""><i class="ri-mail-unread-line"></i>Message </a></li>
-  <li class="list-group-item"><a href=""><i class="ri-star-line"></i>Reviews <br> <span> Management </span></a></li>
-  <li class="list-group-item"><a href=""><i class="ri-line-chart-line"></i>Analytics & Finances</a></li>
-  <li class="list-group-item"><a href=""><i class="ri-volume-up-line"></i>Marketing</a></li>
-  <li class="list-group-item"><a href=""><i class="ri-team-line"></i>Affiliate Marketing</a></li>
-  <li class="list-group-item"><a href=""><i class="ri-verified-badge-line"></i>Users & Permissions</a></li>
+  <li class="list-group-item" id="gol" data-title="Dashboard">
+    <a href="#"><i class="ri-dashboard-horizontal-fill"></i> Dashboard</a>
+  </li>
+
+  <li class="list-group-item" data-title="Web Management">
+    <a href="#"><i class="ri-computer-line"></i> Web Management</a>
+  </li>
+
+  <li class="list-group-item" data-title="Activities & Providers">
+    <a href="#"><i class="ri-time-line"></i> Activities & <br><span>Providers</span></a>
+  </li>
+
+  <li class="list-group-item" data-title="End Clients">
+    <a href="#"><i class="ri-group-line"></i> End Clients</a>
+  </li>
+
+  <li class="list-group-item" data-title="Bookings">
+    <a href="#"><i class="ri-coupon-line"></i> Bookings</a>
+  </li>
+
+  <li class="list-group-item" data-title="Message">
+    <a href="#"><i class="ri-mail-unread-line"></i> Message</a>
+  </li>
+
+  <li class="list-group-item" data-title="Reviews Management">
+    <a href="#"><i class="ri-star-line"></i> Reviews <br><span>Management</span></a>
+  </li>
+
+  <li class="list-group-item" data-title="Analytics & Finances">
+    <a href="#"><i class="ri-line-chart-line"></i> Analytics & Finances</a>
+  </li>
+
+  <li class="list-group-item" data-title="Marketing">
+    <a href="#"><i class="ri-volume-up-line"></i> Marketing</a>
+  </li>
+
+  <li class="list-group-item" data-title="Affiliate Marketing">
+    <a href="#"><i class="ri-team-line"></i> Affiliate Marketing</a>
+  </li>
+
+  <li class="list-group-item" data-title="Users & Permissions">
+    <a href="#"><i class="ri-verified-badge-line"></i> Users & Permissions</a>
+  </li>
 
 </ul>
 </div>
+
 <div class="dash">
 <h2>Dashboard</h2>
 <p>Showing: <b>This Week</b></p> 
@@ -67,7 +106,8 @@
   <h4>Revenue</h4>
   <h2>&#8364;5,00,100</h2>
   </div>
-  </div>
+  </div>  
+  
 
 
 <div class="car">
@@ -93,9 +133,10 @@
 <p>Invoice</p>
 <div class="down">
 <span>Effortlessly handle your biling and invoices right here.</span>
-<button>Download</button>
+<button id="downloadBtn">Download</button>
 </div>
-<table class="align-middle table-bordered text-center table-stripped" width="95%" cellpadding="10" cellspacing="0" border="1" align="center" >
+<div class="table-responsive">
+<table class="align-middle table-bordered text-center table-striped" cellpadding="10" cellspacing="0" border="1" align="center" >
 <thead bgcolor="#cceeff">
   <tr>
     <th>Invoice Id</th>
@@ -113,32 +154,32 @@
   <td>Email Campaign</td>
   <td>&#8364;50</td>
   <td>&#8364;50</td>
-  <td style="color: rgb(160, 204, 160);">Paid</td>
+  <td class="status">Paid</td>
 </tr>
 <tr>
   <td>123456789</td>
   <td>Jun 12,2023</td>
-  <td>Promote on Soci...</td>
+  <td>Promote on Social Network</td>
   <td>&#8364;100</td>
   <td>&#8364;80</td>
-  <td style="color: rgb(225, 71, 71);">Pending</td>
+  <td class="status">Pending</td>
 </tr>
 
 <tr>
   <td>123456789</td>
   <td>Jun 12,2023</td>
-  <td>Promote on Soci...</td>
+  <td>Promote on Social Network</td>
   <td>&#8364;100</td>
   <td>&#8364;80</td>
-  <td style="color: rgb(225, 71, 71);">Pending</td>
+  <td class="status">Pending</td>
 </tr>
 <tr>
   <td>123456789</td>
   <td>Jun 12,2023</td>
-  <td>Promote on Soci...</td>
+  <td>Promote on Social Network</td>
   <td>&#8364;50</td>
   <td>&#8364;50</td>
-  <td style="color: rgb(160, 204, 160);">Paid</td>
+  <td class="status">Paid</td>
 </tr>
 <tr>
   <td>123456789</td>
@@ -146,23 +187,23 @@
   <td>Email Campaign</td>
   <td>&#8364;100</td>
   <td>&#8364;80</td>
-  <td style="color: rgb(225, 71, 71);">Pending</td>
+  <td class="status">Pending</td>
 </tr>
 <tr>
   <td>123456789</td>
   <td>Jun 12,2023</td>
-  <td>Promote on Soci...</td>
+  <td>Promote on Social Network</td>
   <td>&#8364;50</td>
   <td>&#8364;50</td>
-  <td style="color: rgb(160, 204, 160);">Paid</td>
+  <td class="status">Paid</td>
 </tr>
 
 </tbody>
 </table>
 </div>
-
-
-
+</div>
+</div>
 </body>
 <script src="/JS/bootstrap.bundle.js"></script>
+<script src="/JS/script.js"></script>
 </html>
