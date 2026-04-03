@@ -17,23 +17,23 @@ Responsive Design:
 Optimized for desktop, tablet, and mobile with a collapsible sidebar for smaller screens.
 
 Tech Stack:
-HTML5
-CSS3
-Bootstrap 5
-JavaScript (Vanilla)
-Remix Icons
+HTML5,
+CSS3,
+Bootstrap 5,
+JavaScript (Vanilla) and
+Remix Icons.
 
 Highlights:
-Dynamic UI interactions with JavaScript
-CSV export using Blob API
+Dynamic UI interactions with JavaScript,
+CSV export using Blob API and
 Responsive layout with modern UI/UX practices.
 
 📌 Future Improvements:
-Backend integration (Laravel)
-API-based dynamic data
-Authentication system
-Multi-page navigation
-Dark mode
+Backend integration (Laravel),
+API-based dynamic data,
+Authentication system,
+Multi-page navigation,
+Dark mode.
 
 Note:
 
